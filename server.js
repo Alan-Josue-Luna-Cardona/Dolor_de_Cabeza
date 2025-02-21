@@ -7,8 +7,8 @@ const querystring = require('querystring');
 const app = express();
 app.use(cors());
 
-const clientId = 'bda49a9419a54ec4ad9645a36c690c95'
-const clientSecret = '08adbfa871914c8c819dd33b83193d0f'
+const clientId = ''
+const clientSecret = ''
 const redirectUri = 'http://localhost:3000/callback';
 
 app.get('/login', (req, res) => {
